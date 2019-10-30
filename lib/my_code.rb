@@ -1,11 +1,19 @@
 def map(array)
+<<<<<<< HEAD
   out = []
+=======
+  new = []
+>>>>>>> 95b9dec0b67cc968295f6faf66a73aee29012c30
   count = 0
  while (count < array.count) do
     out.push(yield(array[count]))
     count+=1
   end
+<<<<<<< HEAD
  out
+=======
+ return new 
+>>>>>>> 95b9dec0b67cc968295f6faf66a73aee29012c30
 end
 
 
